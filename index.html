@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz for Kids</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Fun Quiz for Kids</h1>
+        <div id="question-container">
+            <p id="question">Question will appear here</p>
+            <button class="answer-btn" onclick="checkAnswer('1')">Option 1</button>
+            <button class="answer-btn" onclick="checkAnswer('2')">Option 2</button>
+            <button class="answer-btn" onclick="checkAnswer('3')">Option 3</button>
+        </div>
+        <div id="result" class="result"></div>
+        <div id="score" class="score">Score: 0</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
